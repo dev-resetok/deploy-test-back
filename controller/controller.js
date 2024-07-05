@@ -2,7 +2,7 @@ import User from "../schemas/user.js";
 
 const main = (req, res) => {
     res.set({ "Content-Type": "text/html; charset=utf-8" });
-    res.send("<h1>Welcome Express! 자동배포 버전!</h1>");
+    res.send("<h1>Welcome Express! 자동배포 버전2!</h1>");
 }
 
 const test = async (req, res) => {
